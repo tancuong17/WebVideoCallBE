@@ -2,8 +2,8 @@ const app = require('express')();
 const http = require('http').createServer(app);
 const Nexmo = require('nexmo');
 const nexmo = new Nexmo({
-	apiKey: "e88c88e0",
-  	apiSecret: "QleCs7DioqVO0R6k"
+	apiKey: "",
+  	apiSecret: ""
 });
 const io = require('socket.io')(http, {
   cors: {
